@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Shoot up Fotografie</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <div class="logo">
+            <img width="40px" src="IMG/Fox only no borders.png">
+        </div>
+
+        <h1 class="Header-A">Shoot up Fotografie</h1>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="fotoshoots.html">Fotoshoots</a></li>
+                    <li><a href="coaching.html">Coaching</a></li>
+                    <li><a href="about.html">Over ons</a></li>
+                    <li><a href="Portfolio.html">Portfolio</a></li>
+                    <li><a href="Contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="CT">
+            <h1 class="Header-B">Contact</h1>
+            <div class="CT-text">
+                <p>
+                    Heb je een vraag, of wil je een fotoshoot of coaching-sessie boeken?
+                    Vul dan onderstaand contactformulier in. Dan neem ik zo snel mogelijk contact met je op!
+                </p>
+            </div>
+            <div class="contact">
+                <form name="contact" method="POST" data-netlify="true">
+                    <p>
+                        <label class="form_text">Naam: <input type="text" name="name" /></label>
+                    </p>
+                    <p>
+                        <label class="form_text">E-mail: <input type="email" name="email" /></label>
+                    </p>
+                    <p>
+                        <label class="form_text" name="interesse">Interesse:
+                            <input name="btn" type="radio" /> Fotoshoot <input name="btn" type="radio" /> Workshop
+                        </label>
+                    </p>
+                    <p>
+                        <label class="form_text">Foto van jouw hond (voor Fotoshoot): <input type="file"
+                                name="file" /></label>
+                    </p>
+                    <p>
+                        <label class="form_text">Jouw website (voor Coaching): <input type="url"
+                                name="website" /></label>
+                    </p>
+                    <p>
+                        <label class="form_text">Opmerkingen: <textarea
+                                name="message">Type hier je vraag of opmerking</textarea></label>
+                    </p>
+                    <p>
+                        <button type="submit">Versturen</button>
+                        <button type="reset">Formulier leegmaken</button>
+                    </p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="FF">
+        <div class="FFlogo">
+            <img width="100px" src="IMG/Fox only.png">
+        </div>
+
+        <p>Copyright Shoot up Fotografie
+            <br>
+            Dorine van der Voorden
+            <br>
+            2021
+        </p>
+    </footer>
+
+</body>
+
+</html>
